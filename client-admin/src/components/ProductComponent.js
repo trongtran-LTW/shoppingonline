@@ -47,6 +47,7 @@ class Product extends Component {
                 <th>Creation date</th>
                 <th>Category</th>
                 <th>Image</th>
+                <th>Size</th>
               </tr>
               {prods}
               <tr>
