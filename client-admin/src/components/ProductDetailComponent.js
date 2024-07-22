@@ -50,6 +50,8 @@ class ProductDetail extends Component {
                 <td><select onChange={(e) => { this.setState({ cmbCategory: e.target.value }) }}><option value='select'>--select--</option>{cates}</select></td>
               </tr>
               <tr>
+                <td>Size</td>
+              <tr>
                 <td></td>
                 <td>
                   <input type="submit" value="ADD NEW"onClick={(e) => this.btnAddClick(e)} />
