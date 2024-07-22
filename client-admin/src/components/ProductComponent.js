@@ -51,7 +51,7 @@ class Product extends Component {
               </tr>
               {prods}
               <tr>
-                <td colSpan="6">{pagination}</td>
+                <td colSpan="7">{pagination}</td>
               </tr>
             </tbody>
           </table>
